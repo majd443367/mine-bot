@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer')
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'ipMajzoob.aternos.me',
+    host: 'Majzoob.aternos.me',
     port: 44336,
     username: 'Bot123'
   })
