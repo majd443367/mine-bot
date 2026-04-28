@@ -23,8 +23,9 @@ function createBot() {
     }
   })
 
+  // إذا طلع يرجع بعد 5 ثواني
   bot.on('end', () => {
-    console.log('Reconnecting...')
+    console.log('Disconnected! Reconnecting in 5s...')
     setTimeout(createBot, 5000)
   })
 
